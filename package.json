@@ -1,9 +1,9 @@
 {
   "name": "@elted6501/react-component-library-team-hmgg",
-  "version": "0.1.23",
+  "version": "0.2.1",
   "description": "This is a react component library that was made by team HMGG (Hector, Mariann, Ludim and Griss",
   "license": "ISC",
-  "author": "Hector, Mariann, Ludim and Griss",
+  "author": "Hector, Mariann, Ludim, Griss and Yoyis",
   "type": "module",
   "scripts": {
     "rollup": "rollup -c"

@@ -1,0 +1,50 @@
+.form-container {
+    max-width: 325px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sign-in {
+    color: rgb(0, 145, 255);
+    cursor: pointer;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-group div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .input-field {
+    gap: 15px;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start;
+  }
+  
