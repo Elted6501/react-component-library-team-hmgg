@@ -30,6 +30,6 @@
     "url": "git+https://github.com/Elted6501/react-component-library-team-hmgg.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/Elted6501"
   }
 }
