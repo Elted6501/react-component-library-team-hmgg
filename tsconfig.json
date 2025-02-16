@@ -112,6 +112,7 @@
     "declaration": true,
     "declarationDir": "types",
     "outDir": "dist",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "types": ["react"]
   }
 }

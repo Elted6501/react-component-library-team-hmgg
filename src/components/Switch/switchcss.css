@@ -1,0 +1,46 @@
+.switch,
+.switch * {
+  box-sizing: border-box;
+}
+
+.switch {
+  background: var(--schemes-primary, rgb(200, 200, 200)); /* Default OFF state */
+  border-radius: 100px;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Start position for OFF */
+  width: 52px;
+  height: 32px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+/* ON state */
+.switch.checked {
+  background: var(--schemes-primary, rgb(58, 195, 254)); /* ON state color */
+  justify-content: flex-end; /* Move handle to the right */
+}
+
+/* Handle */
+.switch .handle {
+  width: 26px;
+  height: 26px;
+  background: var(--schemes-on-primary, #ffffff);
+  border-radius: 50%;
+  position: absolute;
+  left: 4px; /* Default OFF position */
+  transition: left 0.3s ease-in-out;
+}
+
+/* Move handle to the right when checked */
+.switch.checked .handle {
+  left: 22px;
+}
+
+/* Disabled state */
+.switch.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
