@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library-team-hmgg",
+  "name": "@Elted6501/react-component-library-team-hmgg",
   "version": "0.0.1",
   "description": "This is a react component library that was made by team HMGG (Hector, Mariann, Ludim and Griss",
   "license": "ISC",
@@ -24,5 +24,12 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elted6501/react-component-library-team-hmgg.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
